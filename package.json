@@ -1,7 +1,7 @@
 {
   "name": "auth-products-api",
-  "version": "1.0.0",
-  "description": "Практическое задание 7 — аутентификация и товары",
+  "version": "2.0.0",
+  "description": "Практическое задание 7-8 — аутентификация и товары",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,6 +10,7 @@
   "dependencies": {
     "bcrypt": "^5.1.1",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0",
     "uuid": "^9.0.0"
